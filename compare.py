@@ -3,7 +3,7 @@
 import time
 import numpy as np
 from tree import SimpleTree
-from Ensemble.bagging import SequentialBagging, ParallelBagging
+from bagging import SequentialBagging, ParallelBagging
 from boosting import SequentialBoosting
 
 DEPTH, N_TREES, REPEATS = 3, 20, 10     # ทุกโมเดลใช้ depth เท่ากัน, ทำซ้ำ 10 ครั้ง
